@@ -1,0 +1,38 @@
+@media (min-width: 360px) {
+    .projects_container{
+        margin-top: 12%;
+    }
+    
+    .card_container {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px; 
+        cursor: pointer;
+    }
+    .details {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -23px;
+    }
+  
+
+    .name{
+        margin-top: 7px; 
+    }
+    
+
+   
+}
+
+@media (min-width: 800px) {
+   .card_container{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%; 
+   }
+   
+   .projects_container{
+    margin-top: 8%;
+   }
+   
+}

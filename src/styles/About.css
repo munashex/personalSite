@@ -1,0 +1,79 @@
+@media(min-width: 360px){
+    .about_container{
+        margin-top: 20px; 
+        width: 80%;
+        margin-left: 18px;
+    }
+    .about_me{
+        color: #8892B0
+    }
+    .about_me >h5{
+        font-weight: 400;
+    } 
+    .lists{
+     display: grid;   
+     grid-template-columns: auto auto auto;
+    } 
+    .lists >h6{
+        font-weight: 300;
+    }
+    .mypic{
+        width: 220px;
+        height: 250px;
+        margin-top: 30px;
+        border-radius: 5px;
+        margin-left: 12%;
+        filter: grayscale(12);
+    }
+    .img_container{
+        display: flex; 
+        justify-content: center;
+    }
+    .image_box {
+        height: 260px; 
+        width: 230px;
+        border: solid 1px #8892B0;
+        position: absolute;
+        z-index: -1;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+    .mypic:hover{
+        filter: grayscale(0);
+        cursor: pointer;
+    }
+}
+
+@media(min-width: 950px) {
+    .about_container{
+        display: flex; 
+        flex-direction: column;
+        width: 60%;
+        margin-left: 10%;
+        margin-bottom: 60px;
+    }
+    .img_container{
+        margin-left: 130%;
+        margin-top: -42%;
+    }
+    .image_box{
+        margin-right: 60px;
+        width: 240px;
+        height: 300px
+    }
+
+    .mypic{
+        width: 250px;
+        height: 300px;
+        margin-top: 30px;
+        border-radius: 5px;
+        margin-left: 10%;
+        filter: grayscale(12);
+    }
+    .mypic:hover{
+        filter: grayscale(0);
+        cursor: pointer;
+    }
+
+}

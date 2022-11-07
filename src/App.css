@@ -1,0 +1,82 @@
+
+.munashe_container {
+ display: flex; 
+ justify-content: center;
+}
+
+.munashe_image{
+  width: 40%;
+  margin-top: -12px;
+}
+
+.brand_image {
+  height: 50px;
+  cursor: pointer
+}
+
+
+
+
+@media (min-width: 360px) {
+  .inner_container {
+   display: flex;
+   flex-direction: column;
+   width: 95%;
+  padding-left: 20px;
+  padding-top: 47px;
+  }
+  .hi{
+    color: #64FFDA;
+    font-weight: 200; 
+    font-size: 20px;
+  }
+  .my_name {
+    color: #CCD6F0;
+  }
+  .builds{
+    color: #8892B0
+  }
+  .what_ido{
+    font-weight: 400;
+    color: #8892B0
+  }
+  .check_github {
+    margin-top: 43px; 
+  }
+  .btn {
+    border: solid #64FFDA 1px; 
+    color: #64FFDA;
+  }
+  .btn:hover {
+    color:#64FFDA
+  }
+  span{
+  color:#64FFDA
+  }
+}
+
+@media (min-width: 950px) {
+  .inner_container {
+    margin-left: 7%;
+    width: 50%
+  }
+  .hi{
+    display: none;
+  }
+  .my_name{
+    font-size: 3.5em;
+  }
+  .builds{
+    font-size: 3.5em;
+  }
+  .btn{
+    height: 56px;
+    width: 230px
+  }
+  .link{
+    color: black;
+  }
+  .link:active {
+  color: #64FFDA
+  }
+}

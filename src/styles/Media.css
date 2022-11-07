@@ -1,0 +1,49 @@
+@media(min-width: 360px) {
+    .media_container{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+       padding-left: 20px;
+       padding-top: 47px;
+    }
+    .sayhi{
+        margin-top: 12px;
+        font-weight: 400;
+        color: #8892B0
+    }
+    .say_hi_btn{
+        border: solid #64FFDA 1px; 
+        color: #64FFDA;
+        margin-top: 30px;
+        width: 130px;
+        margin-left: 35%;
+        margin-bottom: 40px;
+    }
+    .social_links{
+        display: flex; 
+        justify-content: center;
+    }
+    .social_links > a {
+        padding: 10px;
+        cursor: pointer
+    }
+   
+    .built-by{
+     color:#8892B0;
+     display: flex; 
+     justify-content: center;
+     margin-top: 10px;
+     margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 950px) {
+    .media_container{
+        margin-left: 7%;
+        width: 50%
+    }
+    .say_hi_btn{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+}
