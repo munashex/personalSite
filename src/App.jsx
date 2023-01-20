@@ -4,14 +4,13 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './Pages/Home' 
 import About from './Pages/About'
 import Project from './Pages/Projects'
-import NotFound from './Pages/Notfound'
+import NotFound from './Pages/Notfound' 
+ 
 
-
-
-const App = () => {
+const App = () => { 
+ 
 
   return (
-<div> 
   <BrowserRouter>
   <Routes>
     <Route path="" element={<Starting/>} />
@@ -21,7 +20,6 @@ const App = () => {
      <Route path="*" element={<NotFound/>}/>
   </Routes>
   </BrowserRouter>
-</div>
   )
 }
 

@@ -7,7 +7,7 @@ const Header = () => {
   let navigate = useNavigate()
     
     return (
-
+      <div>  
       <Navbar bg="light" expand="lg">
        <Container>
        <Navbar.Brand> 
@@ -25,7 +25,8 @@ const Header = () => {
             </Nav>
           </Navbar.Collapse>
        </Container>
-    </Navbar>
+    </Navbar> 
+    </div>
     )
 
 }

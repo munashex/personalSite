@@ -1,4 +1,18 @@
-const data = [
+const data = [ 
+      {
+        img: "munasheKitchen.png",
+        name: "Food Recipe", 
+        link: "https://chimerical-liger-31c657.netlify.app/", 
+        detail: "Food Recipe Application. Search any Food Recipe in input Form"
+
+    },
+    {
+        img: "https://cryptowat.ch/static/images/unfurls/index.png",
+        name: "Crypto Price Tracker", 
+        link: "https://cerulean-crostata-16da20.netlify.app/", 
+        detail: "Search for cryptocurrency and display on the browser. The prices will update live whenever you refresh the page"
+
+    },
     { 
         img: "https://lh6.googleusercontent.com/7TCKH_vkIqUfjzcUQrlJAJTnX54NXeuU7y-ov18K3GiSGdn2GCrTkCUZ4bhyf6vZBqp803mGYu7AWEHZhyFa3L5mHfcwsDyNzoHrldbzWWdHmZybqbERpL5UwCzA9wTVjK0AQNa1iH5KsCuPpqAvDi8",
         name: 'TaskCade Server',
