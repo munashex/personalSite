@@ -1,4 +1,10 @@
-const data = [ 
+const data = [
+    {
+     img: "youtube.png", 
+     name: "Youtube clone", 
+     link: "https://benevolent-lokum-1acd20.netlify.app/", 
+     detail: "Youtube clone with all functionality ..."
+    },
       {
         img: "munasheKitchen.png",
         name: "Food Recipe", 
